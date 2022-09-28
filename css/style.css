@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+header {
+  color: white;
+}
+
+p {
+  color:MidnightBlue;
+  font: Georgia, serif;
+  line-height: 36px;
+}
+
+h1 {
+  color: Indigo;
+  font: 40px Georgia, serif;
+
+}
+
+body {
+  background-color: MediumAquaMarine;
+}
+
+ul {
+  color: Indigo;
+  font: 18px Georgia, serif;
+  font-weight: bold;
+}
+
+table {
+  color: MidnightBlue;
+}
+
+footer {
+  font-size: 12px;
+}
