@@ -8,6 +8,10 @@ p {
   color:MidnightBlue;
   font: Georgia, serif;
   line-height: 36px;
+  width: 800px;
+  border: 8px dashed MidnightBlue;
+  padding: 30px;
+
 }
 
 h1 {
@@ -31,5 +35,8 @@ table {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 10px;
+  border: 8px dotted MidnightBlue;
+  padding: 80px 20px;
+
 }
