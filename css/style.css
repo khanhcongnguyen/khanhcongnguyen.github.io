@@ -72,6 +72,14 @@ a:hover {
   color: green;
 }
 
+li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style-type: square;
+  list-style-position:inside;
+  list-style-image: url('../images/purple.jpg');
+}
+
 footer {
   width: 500px;
   font-size: 15px;
