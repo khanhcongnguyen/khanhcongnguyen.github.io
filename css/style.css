@@ -9,6 +9,12 @@ header {
   text-align: center;
 }
 
+#top {
+  color: pink;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
 h1 {
   color: Indigo;
   font: 40px Georgia, serif;
@@ -31,6 +37,13 @@ ul {
 
 table {
   color: MidnightBlue;
+  width: 800px
+   border:1px solid black;
+   border-collapse:collapse;
+}
+
+.warning {
+  color:red;
 }
 
 nav {
