@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
-@fontface {
-  font-family: BlackAsylum;
-  src: url('../fonts/BlackAsylum.ttf' )
-  font-weight:
-  font-style:normal
+@font-face {
+  font-family: SEGOEUI;
+  src: url("../fonts/SEGOEUI.TTF") format("truetype");
 }
 
 header {
   color: white;
   border: 2px dotted MidnightBlue;
+  font-family: SEGOEUI;
   width: 400px;
   padding: 2px 2px 2px 2px;
   margin: 10px;
