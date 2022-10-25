@@ -1,44 +1,54 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: SEGOEUI;
-  src: url("../fonts/SEGOEUI.TTF") format("truetype");
+  font-family: Begum;
+  src: url('../fonts/Begum.ttf') format('truetype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+@media screen and (max-width:800px) {
+  #top{
+    font-size:70px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  #top{
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+  #top{
+    font-size:40px;
+  }
 }
 
 header {
-  color: white;
-  border: 2px dotted MidnightBlue;
-  font-family: SEGOEUI;
-  width: 400px;
-  padding: 2px 2px 2px 2px;
-  margin: 10px;
-  text-align: center;
-}
-
-#top {
-  color: pink;
-  font-size: 20px;
-  font-family: sans-serif;
-}
-
-h1 {
-  color: Indigo;
-  font: 40px Georgia, serif;
-
+  font-family: Begum;
+  text-align:center;
+  color: PapayaWhip;
 }
 
 body {
-  background-color: MediumAquaMarine;
   background-image: url("../images/saffron.jpg");
+  background-color: #201f1d;
   background-size: 1920px 1080px;
   background-repeat:no-repeat;
   background-size:cover;
 }
 
 ul {
-  color: Indigo;
+  color: MidnightBlue;
   font: 18px Georgia, serif;
   font-weight: bold;
+}
+
+li {
+  display:inline-flex;
+  list-style-type: square;
+  background-color:PapayaWhip;
 }
 
 table {
@@ -48,49 +58,75 @@ table {
    border-collapse:collapse;
 }
 
-.warning {
-  color:red;
-}
-
 nav {
-  border: 3px dashed MidnightBlue;
-  padding: 10px 10px;
-  margin: 0;
-  max-width: 1000px;
-  min-width:500px;
+  padding: 20px;
 }
 
 main{
-  border: 3px dashed MidnightBlue;
-  padding: 20px 20px 20px 20px;
-  margin: 0;
+  color: MidnightBlue;
+  padding: 20px;
+  border: 1px solid MidnightBlue;
+  display:inline-grid;
+  background-color:PapayaWhip;
 }
 
 a:link {
-  color: blue;
-}
-
-a:visited {
-  color: purple;
+  color: MidnightBlue;
+  padding: 10px;
+  border: 1px solid MidnightBlue;
 }
 
 a:hover {
-  color: green;
+  color: PapayaWhip;
+  background-color: MidnightBlue;
+  padding: 10px;
+  border: 1px solid MidnightBlue;
 }
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-  list-style-type: square;
-  list-style-position:inside;
-  list-style-image: url('../images/purple.jpg');
+a:active {
+  color: orange;
+  background-color: MidnightBlue;
+  padding: 10px;
+  border: 1px solid MidnightBlue;
 }
 
 footer {
-  width: 500px;
   font-size: 15px;
-  border: 3px dashed MidnightBlue;
-  padding: 80px 20px;
-  margin: 0;
+  color:MidnightBlue;
+  margin: 20px 0px;
+  padding: 20px;
+  display:block;
+  border: 1px dashed MidnightBlue;
+  background-color:PapayaWhip;
+  opacity: 50%;
+}
 
+.text {
+  border:1px solid black;
+  padding: 20px;
+  margin: 0px 20px;
+  background-color:white;
+}
+
+@media screen and (min-width:800px) {
+  .text {
+    padding: 5px;
+    margin: 0px 5px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .text {
+    padding: 40px;
+    margin: 0px 40px;
+    border: 0px;
+    background-color:yellow;
+  }
+}
+
+.text2 {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0px 20px;
+  background-color:white;
 }
