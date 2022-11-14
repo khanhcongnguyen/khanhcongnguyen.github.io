@@ -81,6 +81,7 @@ a:hover {
   background-color: MidnightBlue;
   padding: 10px;
   border: 1px solid MidnightBlue;
+  box-shadow: 5px 5px;
 }
 
 a:active {
